@@ -1,0 +1,44 @@
+body{ 
+    background-color: rgb(206, 206, 206);
+    margin: 0;
+}
+div{ 
+    box-sizing:border-box;
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header h1{
+    margin: auto;
+    width: 600px;
+}
+.post {
+    background-color: white;
+    margin-top:40px;
+}
+.container{
+ width: 600px;
+    margin: auto;
+}
+.photo img {
+    width: 100%;
+
+}
+.post-header h2, .description-post p {
+    padding: 10px;
+    margin: 0
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}  
+
+
